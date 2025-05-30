@@ -23,7 +23,7 @@ import tn.sidilec.service.AuthService;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://192.168.52.129:4200")
 @RequestMapping("/auth")
 public class AuthController {
     private final AuthService authService;
