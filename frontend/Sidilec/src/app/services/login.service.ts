@@ -8,7 +8,7 @@ import { ChargeTrackerService } from './charge-tracker.service';
   providedIn: 'root'
 })
 export class LoginService {
-  private apiUrl = 'http://localhost:8080/auth/login';
+  private apiUrl = 'http://192.168.52.129:8080/auth/login';
 
   constructor(private http: HttpClient, private router: Router, private chargeTracker: ChargeTrackerService) { }
   login(email: string, motDePasse: string, rememberMe: boolean) {
